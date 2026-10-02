@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ジャングルバギー・ATVジャングルバイク｜ヤスイツアーバリ</title>
+  <meta name="description" content="バリ島でジャングルバギーまたはATVジャングルバイクを楽しみませんか。シングルまたはタンデムを選び、ご希望の開始時間をご予約いただけます。">
+  <link rel="stylesheet" href="/theme.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header class="bg-[var(--color-deep)] px-5 py-5 text-white">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between gap-4">
+      <a href="index.html" class="font-bold tracking-widest">ヤスイツアーバリ</a>
+      <a href="index.html#contact" class="rounded-[var(--radius)] bg-[var(--color-accent)] px-5 py-3 text-sm font-bold text-[var(--color-deep)] transition hover:opacity-90">お問い合わせ <span aria-hidden="true">→</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="bg-[var(--color-accent-soft)] px-5 py-16 lg:px-8 lg:py-24">
+      <div class="mx-auto max-w-5xl">
+        <div class="text-center">
+          <p class="mb-3 text-sm font-bold tracking-[0.18em] text-[var(--color-primary)]">JUNGLE BUGGY / ATV JUNGLE BIKE</p>
+          <h1 class="text-3xl font-bold leading-relaxed text-[var(--color-heading)] sm:text-5xl">バリ島のジャングルを駆け抜けよう</h1>
+          <p class="mx-auto mt-5 max-w-2xl text-base leading-8 text-[var(--color-muted)]">シングルまたはタンデムからお選びいただき、ジャングルを走る爽快なアドベンチャーをお楽しみください。ご希望の開始時間もお選びいただけます。</p>
+        </div>
+
+        <div class="relative mt-10" aria-label="ATVアドベンチャーの写真">
+          <div id="atvSlider" class="flex snap-x snap-mandatory overflow-x-auto scroll-smooth rounded-[var(--radius)]" tabindex="0" aria-roledescription="carousel" aria-label="ATVアドベンチャーの写真">
+            <img src="https://jwc.gotra-resources.my.id/web-upload/1731376238-12-11-2024-Hf2tohc1b7qOFDyBPXzVGTg5ejN4srSu.webp" alt="バリ島のジャングルを走るATVアドベンチャー" class="h-64 w-full shrink-0 snap-center object-cover shadow-sm sm:h-96" loading="lazy">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfkZzj2WMbWAwT6evlRJo7MWLh6XCe1xInBL1KLVLil_xkBFQt5sDt6i7i&amp;s=10" alt="バリ島の自然の中を走るATV" class="h-64 w-full shrink-0 snap-center object-cover shadow-sm sm:h-96" loading="lazy">
+            <img src="https://www.baliquadbiking.com/wp-content/uploads/2025/03/Jambe-atv-adventure-tour.jpg" alt="ジャングルトレイルでのATVライド" class="h-64 w-full shrink-0 snap-center object-cover shadow-sm sm:h-96" loading="lazy">
+          </div>
+          <button id="atvPrev" type="button" aria-label="前の画像" class="absolute left-3 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black/55 text-2xl text-white transition hover:bg-black/75">‹</button>
+          <button id="atvNext" type="button" aria-label="次の画像" class="absolute right-3 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black/55 text-2xl text-white transition hover:bg-black/75">›</button>
+          <div id="atvSliderDots" class="mt-4 flex justify-center gap-3" aria-label="画像を選択"></div>
+        </div>
+
+        <div class="mt-10 grid gap-5 md:grid-cols-2">
+          <article class="rounded-[var(--radius)] border border-[var(--color-border)] bg-[var(--color-surface)] p-7 shadow-sm sm:p-8">
+            <p class="text-sm font-bold tracking-[0.12em] text-[var(--color-primary)]">シングルライド</p>
+            <h2 class="mt-2 text-2xl font-bold text-[var(--color-heading)]">シングルライド</h2>
+            <p class="mt-5"><span class="text-3xl font-bold text-[var(--color-primary)]">Rp 650,000</span><span class="text-sm text-[var(--color-muted)]"> / 1名</span></p>
+            <p class="mt-2 text-sm text-[var(--color-muted)]">通常料金：<span class="line-through">Rp 1,200,000 / 1名</span></p>
+          </article>
+          <article class="rounded-[var(--radius)] border border-[var(--color-border)] bg-[var(--color-surface)] p-7 shadow-sm sm:p-8">
+            <p class="text-sm font-bold tracking-[0.12em] text-[var(--color-primary)]">タンデムライド</p>
+            <h2 class="mt-2 text-2xl font-bold text-[var(--color-heading)]">タンデムライド</h2>
+            <p class="mt-5"><span class="text-3xl font-bold text-[var(--color-primary)]">Rp 900,000</span><span class="text-sm text-[var(--color-muted)]"> / 1台</span></p>
+            <p class="mt-2 text-sm text-[var(--color-muted)]">通常料金：<span class="line-through">Rp 1,600,000 / 1台</span></p>
+          </article>
+        </div>
+
+        <section class="mt-5 rounded-[var(--radius)] border border-[var(--color-border)] bg-[var(--color-surface)] p-7 shadow-sm sm:p-8" aria-labelledby="price-calculator-title">
+          <h2 id="price-calculator-title" class="text-xl font-bold text-[var(--color-heading)]">ルピアから日本円への概算計算</h2>
+          <p class="mt-2 text-sm leading-7 text-[var(--color-muted)]">ルピアの金額を入力すると、取得した最新の為替レートを使って日本円の目安を自動計算します。</p>
+
+          <label for="idrAmount" class="mt-5 block text-sm font-bold">金額（IDR）</label>
+          <input id="idrAmount" type="number" min="0" step="any" value="650000" inputmode="decimal" placeholder="例：650000" class="mt-2 w-full rounded-[var(--radius)] border border-[var(--color-border)] bg-[var(--color-bg)] px-4 py-3">
+
+          <div class="mt-5 rounded-[var(--radius)] bg-[var(--color-accent-soft)] p-5">
+            <p class="text-sm font-bold text-[var(--color-muted)]">日本円の概算額</p>
+            <p id="priceJpy" class="mt-2 text-2xl font-bold text-[var(--color-primary)]">為替レートを取得しています…</p>
+            <p id="exchangeRateStatus" class="mt-2 text-xs leading-6 text-[var(--color-muted)]" role="status" aria-live="polite">最新の為替レートを確認しています。</p>
+          </div>
+          <p class="mt-3 text-xs leading-6 text-[var(--color-muted)]">為替レートは外部サービスから自動取得します。更新タイミングや市場レートにより、実際のお支払い額とは異なる場合があります。</p>
+        </section>
+
+        <section class="mt-5 rounded-[var(--radius)] border border-[var(--color-border)] bg-[var(--color-surface)] p-7 shadow-sm sm:p-8" aria-labelledby="included-title">
+          <h2 id="included-title" class="text-xl font-bold text-[var(--color-heading)]">料金に含まれるもの</h2>
+          <ul class="mt-4 grid gap-2 text-sm leading-7 text-[var(--color-muted)] sm:grid-cols-2">
+            <li>✓ 250ccエンジンのバギー</li>
+            <li>✓ ライド時間：1〜90分</li>
+            <li>✓ 昼食</li>
+            <li>✓ タオル</li>
+            <li>✓ ミネラルウォーター</li>
+            <li>✓ 安全ブーツ・ヘルメット</li>
+            <li>✓ シャワールーム・ロッカー</li>
+            <li>✓ 現地ガイド</li>
+            <li>✓ 保険</li>
+          </ul>
+
+          <div class="mt-7 rounded-[var(--radius)] bg-[var(--color-accent-soft)] p-5">
+            <h3 class="text-lg font-bold text-[var(--color-heading)]">ATVのコース</h3>
+            <p class="mt-2 text-sm leading-7 text-[var(--color-muted)]">田んぼ、ジャングル（森林）、滝、川、橋、バロンケーブ、泥道を走るコースです。</p>
+            <a href="https://drive.google.com/file/d/1sYv4j398UWsvF9hfwhwl72XmeJjD7KVa/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex items-center gap-2 font-bold text-[var(--color-primary)] underline">コースを詳しく見る <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <label for="jungleSession" class="mt-7 block text-sm font-bold">ご希望の開始時間</label>
+          <select id="jungleSession" class="mt-2 w-full rounded-[var(--radius)] border border-[var(--color-border)] bg-[var(--color-bg)] px-4 py-3">
+            <option value="08:30">8:30</option>
+            <option value="10:30">10:30</option>
+            <option value="12:30">12:30</option>
+            <option value="14:30">14:30</option>
+            <option value="16:30">16:30</option>
+          </select>
+          <a href="index.html#contact" class="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-[var(--radius)] bg-[var(--color-primary)] px-6 py-4 text-center font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:opacity-90">ジャングルバギー／ATVを予約する <span aria-hidden="true">→</span></a>
+          <p class="mt-3 text-center text-xs leading-6 text-[var(--color-muted)]">お問い合わせの際に、ライドの種類とご希望の開始時間をお知らせください。</p>
+        </section>
+
+        <p class="mt-8 text-center"><a href="index.html" class="font-bold text-[var(--color-primary)] underline">← ヤスイツアーバリのトップページへ戻る</a></p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const atvSlider = document.getElementById('atvSlider');
+    const atvSlides = Array.from(atvSlider.querySelectorAll('img'));
+    const atvSliderDots = document.getElementById('atvSliderDots');
+    let currentAtvSlide = 0;
+
+    atvSlides.forEach((_, index) => {
+      const dot = document.createElement('button');
+      dot.type = 'button';
+      dot.setAttribute('aria-label', `${index + 1}枚目の画像を表示`);
+      dot.className = 'h-3 w-3 rounded-full bg-[var(--color-border)] transition';
+      dot.addEventListener('click', () => atvSlider.scrollTo({ left: index * atvSlider.clientWidth, behavior: 'smooth' }));
+      atvSliderDots.appendChild(dot);
+    });
+
+    function updateAtvSlider() {
+      currentAtvSlide = Math.round(atvSlider.scrollLeft / atvSlider.clientWidth);
+      Array.from(atvSliderDots.children).forEach((dot, index) => {
+        dot.classList.toggle('bg-[var(--color-primary)]', index === currentAtvSlide);
+        dot.classList.toggle('bg-[var(--color-border)]', index !== currentAtvSlide);
+        dot.setAttribute('aria-current', index === currentAtvSlide ? 'true' : 'false');
+      });
+    }
+
+    document.getElementById('atvPrev').addEventListener('click', () => {
+      const index = (currentAtvSlide - 1 + atvSlides.length) % atvSlides.length;
+      atvSlider.scrollTo({ left: index * atvSlider.clientWidth, behavior: 'smooth' });
+    });
+    document.getElementById('atvNext').addEventListener('click', () => {
+      const index = (currentAtvSlide + 1) % atvSlides.length;
+      atvSlider.scrollTo({ left: index * atvSlider.clientWidth, behavior: 'smooth' });
+    });
+    atvSlider.addEventListener('scroll', updateAtvSlider, { passive: true });
+    window.addEventListener('resize', () => atvSlider.scrollTo({ left: currentAtvSlide * atvSlider.clientWidth }));
+    updateAtvSlider();
+
+    const idrAmount = document.getElementById('idrAmount');
+    const priceJpy = document.getElementById('priceJpy');
+    const exchangeRateStatus = document.getElementById('exchangeRateStatus');
+    const formatCurrency = (value, currency) => new Intl.NumberFormat('ja-JP', {
+      style: 'currency', currency, maximumFractionDigits: 0
+    }).format(value);
+    let jpyPerIdr = null;
+
+    function updateJpyEstimate() {
+      const amount = Number(idrAmount.value);
+      priceJpy.textContent = Number.isFinite(amount) && amount >= 0 && jpyPerIdr !== null
+        ? formatCurrency(amount * jpyPerIdr, 'JPY')
+        : jpyPerIdr === null ? '為替レートを取得しています…' : '金額を入力してください';
+    }
+
+    idrAmount.addEventListener('input', updateJpyEstimate);
+
+    fetch('https://open.er-api.com/v6/latest/IDR')
+      .then((response) => {
+        if (!response.ok) throw new Error('Exchange rate request failed');
+        return response.json();
+      })
+      .then((data) => {
+        const rate = Number(data.rates && data.rates.JPY);
+        if (data.result !== 'success' || !Number.isFinite(rate) || rate <= 0) {
+          throw new Error('Exchange rate is unavailable');
+        }
+        jpyPerIdr = rate;
+        const updatedAt = data.time_last_update_utc
+          ? new Date(data.time_last_update_utc).toLocaleString('ja-JP')
+          : '更新時刻不明';
+        exchangeRateStatus.textContent = `為替レート：1 IDR = ${rate.toPrecision(6)} JPY（更新：${updatedAt}）`;
+        updateJpyEstimate();
+      })
+      .catch(() => {
+        priceJpy.textContent = '現在、為替レートを取得できません';
+        exchangeRateStatus.textContent = 'ネットワーク接続後にページを再読み込みしてください。';
+      });
+  </script>
+
+  <footer class="bg-[var(--color-deep)] px-5 py-8 text-center text-sm text-white/80">
+    <p>© Yasui Tour. All rights reserved.</p>
+  </footer>
+</body>
+</html>
