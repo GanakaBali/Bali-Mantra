@@ -1,0 +1,39 @@
+:root {
+  --color-primary: #16856f;
+  --color-primary-contrast: #ffffff;
+  --color-bg: #f8fcfa;
+  --color-surface: #ffffff;
+  --color-text: #173b37;
+  --color-muted: #5d7772;
+  --color-heading: #173b37;
+  --color-accent: #c8efdf;
+  --color-accent-soft: #eef8f4;
+  --color-accent-pale: #f2f7f5;
+  --color-deep: #123e3b;
+  --color-hero: #355f5b;
+  --color-line: #00a680;
+  --color-border: #dcece5;
+  --color-border-soft: #e8ece9;
+  --font-heading: "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, sans-serif;
+  --font-body: "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, sans-serif;
+  --radius: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+button,
+a {
+  font-family: var(--font-heading);
+}
